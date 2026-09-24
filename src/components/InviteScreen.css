@@ -237,25 +237,6 @@
   padding: 7px 20px; border-radius: 2px; white-space: nowrap;
 }
 
-/* Dress code */
-.dc-card {
-  border-radius: 8px; padding: 16px;
-  border: 1px solid rgba(184,148,63,0.2);
-  background: rgba(255,255,255,0.75);
-  display: flex; flex-direction: column; align-items: center; gap: 14px;
-}
-.dc-img { width: 100%; max-width: 340px; object-fit: contain; background: #fff; }
-.dc-info { text-align: center; width: 100%; }
-.dc-swatches { display: flex; justify-content: center; gap: 7px; margin-bottom: 10px; }
-.dc-swatch {
-  width: 24px; height: 24px; border-radius: 50%;
-  border: 2px solid rgba(255,255,255,0.5);
-  box-shadow: 0 2px 6px rgba(0,0,0,0.14);
-}
-.dc-theme { font-family:'Cinzel',serif; font-size:12px; letter-spacing:0.13em; margin-bottom:8px; color:#1a3a0a; }
-.dc-desc { font-family:'Cormorant Garamond',serif; font-size:15px; line-height:1.75; margin-bottom:7px; color:#3d5a1f; }
-.dc-note { font-family:'Cormorant Garamond',serif; font-style:italic; font-size:13px; color:#4a7c2f; }
-
 /* Footer */
 .footer {
   text-align: center; padding: 24px 24px 80px; margin-top: 16px;

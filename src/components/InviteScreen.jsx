@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react'
-import { mansionDay, mansionNight, dressCode, venue } from '../assets'
+import { mansionDay, mansionNight, venue } from '../assets'
 import Countdown from './Countdown'
 import RSVPCard from './RSVPCard'
 import VenueSection from './VenueSection'
@@ -201,25 +201,6 @@ export default function InviteScreen() {
             onMouseDown={startScratch} onMouseMove={scratch}
             onMouseUp={stopScratch} onMouseLeave={stopScratch}
           />
-        </div>
-      </div>
-
-      <div className="ornament reveal">✿ ✦ ✿</div>
-
-      {/* ── DRESS CODE ── */}
-      <div className="section reveal">
-        <p className="sec-label">Geyim Kodu</p>
-        <div className="dc-card">
-          <img src={dressCode} alt="Dress Code" className="dc-img" />
-          <div className="dc-info">
-            <p className="dc-theme">Eleqant geyim</p>
-            <p className="dc-desc">
-              Xanımlar: Klassik və zərif axşam geyimi<br/>
-              Cənablar: Eleqant və klassik geyim
-
-
-            </p>
-          </div>
         </div>
       </div>
 
